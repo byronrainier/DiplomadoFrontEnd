@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box ;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+body{
+    background-color: #14213d;
+}
+
+.contenedorSuperior{
+    padding: 40px;
+    height: 80px;
+    background-color:#fca311;
+
+    font-size: 25px;
+    color: white;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: auto;
+}
+
+.botonesBarra{
+    color: white;
+}
+
+.cuadroCentral{
+    background-color:#e5e5e5;
+    color: black;
+    box-sizing: border-box;
+    width: 650px;
+    height: 450px;
+    margin: 20px 50px;
+    padding: 50px;
+    position: relative;  
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.contenedorFoto{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 100%;
+}
+
+.contenedorFoto > .foto{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+
+}
+
+.contenidoDerecho{
+    width: 200px;
+
+}
+
+
+.lineaDivisora{
+    background-color: black;
+    width: 1px;
+}
+
+
+.cuadroCentral:after {
+    content: "";
+    display: block;
+    /*background-color: #16CF8B;*/
+    /*border: solid 5px #16CF8B;*/
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 0px;
+
+    /*Calcula la posicion del elmento con la funcion calc*/
+    /*fuente: https://www.w3schools.com/cssref/func_calc.asp*/
+    left: calc(50% - 21px);
+
+    border-left: 21px solid transparent;
+    border-right: 21px solid transparent;
+    border-top: 14px solid #14213d;
+
+    /*Como calcular la posicion del elemento para centrarlo*/
+    /*transform: translateX(-50%);*/
+}
+
+.cuadroCentral:before {
+    content: "";
+    display: block;
+    /*background-color: #16CF8B;*/
+    /*border: solid 5px #16CF8B;*/
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 0px;
+
+    /*Calcula la posicion del elmento con la funcion calc*/
+    /*fuente: https://www.w3schools.com/cssref/func_calc.asp*/
+    left: calc(50% - 21px);
+
+    border-left: 21px solid transparent;
+    border-right: 21px solid transparent;
+    border-top: 14px solid #DCE0E5;
+
+    /*Como calcular la posicion del elemento para centrarlo*/
+    /*transform: translateX(-50%);*/
+}
+
+.contenedorSuperior:before {
+    content: "";
+    display: block;
+    /*background-color: #16CF8B;*/
+    /*border: solid 5px #16CF8B;*/
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 70px;
+
+    /*Calcula la posicion del elmento con la funcion calc*/
+    /*fuente: https://www.w3schools.com/cssref/func_calc.asp*/
+    right: calc(50% - 90px);
+
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 50px solid #fca311;
+
+    /*Como calcular la posicion del elemento para centrarlo*/
+    /*transform: translateX(-50%);*/
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

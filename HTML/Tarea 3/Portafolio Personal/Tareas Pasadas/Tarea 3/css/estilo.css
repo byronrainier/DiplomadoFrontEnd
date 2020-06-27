@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#F1EDEE;
+}
+
+body{
+    background-color: #212D40;
+    font-family: Archivo Narrow;
+}
+
+
+
+h2{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #F1EDEE;
+    text-align: center;
+
+}
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    padding: 0 15px;
+}
+
+.contenedor > * {
+    background-color: #8B575C;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.cabecera{
+    background-color: #F1EDEE;
+    color: #11151C;
+    min-height: 80px;
+    float: left;
+}
+
+.cabecera, .footer{
+    width: inherit;
+}
+
+.seccion, .barraDeTarea{
+    width: 32%;
+    min-height: 400px;
+    float: left;
+
+}
+
+.footer{
+    background-color: #F1EDEE;
+    color: #11151C;
+    min-height: 80px;
+    float: left;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .seccion,.barraDeTarea{
+        width: 100%;
+        min-height: 400px;
+        float: left;
+    }
+}
+
+.barraDeTarea{
+    /*float: left;
+    min-height: 100px;*/
+}
+
