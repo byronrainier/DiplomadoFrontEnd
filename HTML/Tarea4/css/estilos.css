@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
+*{
+    margin: 0%;
+}
+
+body{
+    background-image: url("../img/edificio.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cabecera{
+    font-family: "Montserrat Subrayada";
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+.cuadroCentral{
+    font-family: Arial;
+    width: 20%;
+    height: 50%;
+    padding: 5px;
+    background-color: white;
+    margin: auto;
+    margin-top: 235px;
+    
+
+    display: flexbox;
+    text-align: center;
+}
+
+.cajaTexto{
+    border-radius: 10px;
+}
+
+.botonEnviar{
+    border-radius: 25px;
+}
